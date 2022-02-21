@@ -1,0 +1,31 @@
+*,a{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color:#424242; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_gato{
+    text-align: center;
+    width: 30%;
+    height: 400px;
+    /* background-color: aqua; */
+}
+
+.contenedor_gato img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+    
+}
+    
